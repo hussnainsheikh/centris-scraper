@@ -35,7 +35,7 @@ To run this project, you'll need the following installed:
    ```bash
    pip install scrapy autopep8 pylint scrapy-splash
 
-4. **Install the Required Packages**
+4. **Download Splash Docker Image**
    ```bash
    docker pull scrapinghub/splash
 
@@ -45,7 +45,7 @@ To run this project, you'll need the following installed:
    ```
 This command will start Splash on port 8050 and you can access it by *localhost:8050*
 
-6. **Execute the spider**
+6. **Execute the Spider**
    ```bash
    scrapy crawl listings -o dataset.json
 
